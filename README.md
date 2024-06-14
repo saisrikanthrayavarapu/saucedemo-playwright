@@ -13,10 +13,21 @@ npx playwright test -g "@regression"
 This runs all test cases with *"@regression"* tag
 
 ---
-#### Run test cases by user story
+#### Run test cases by suite
 
-TC01_
-
+TC01_LoginPage.spec
 ```bash
-npx playwright test -g "@pw-0001"
+npx playwright test -g "@TC01" --project chrome
 ```
+_This runs TC01 in *chrome* browser_
+
+TC02_ProductPage_StandardUser.spec
+```bash
+npx playwright test -g "@TC02" --project chrome
+```
+
+TC03_LoginPage_LockedourUser.spec
+```bash
+npx playwright test -g "@TC02" --project chrome
+```
+---
