@@ -1,0 +1,13 @@
+export const baseUrl = 'https://www.saucedemo.com/';
+export const title = 'Swag Labs';
+export const landingPageUrl = 'https://www.saucedemo.com/inventory.html';
+export const sauceLabsUrl = 'https://saucelabs.com/';
+export const onesie = '$7.99';
+export const fleeceJacket = '$49.99';
+export const tShirtRed = '$15.99';
+export const backPack = '$29.99';
+export const yourCartUrl = 'https://www.saucedemo.com/cart.html';
+export const checkoutYourInformationUrl = 'https://www.saucedemo.com/checkout-step-one.html';
+export const checkoutOverviewUrl = 'https://www.saucedemo.com/checkout-step-two.html';
+export const checkoutCompleteUrl = 'https://www.saucedemo.com/checkout-complete.html';
+export const productDetailsPageUrl = 'https://www.saucedemo.com/inventory-item.html?id=4';

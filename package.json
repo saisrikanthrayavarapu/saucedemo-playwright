@@ -1,0 +1,37 @@
+{
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright Test Runner with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:smoke": "npx playwright test --grep @smoke --project=Chrome",
+    "test:serial": "npx playwright test --workers=1 --project=Chrome",
+    "test:chrome": "npx playwright test --project=Chrome",
+    "test:chrome-report": "npx playwright test --project=Chrome --reporter=html && npx playwright show-report",
+    "test:tc1": "npx playwright test TC01_LoginPage.spec.js --project=Chrome",
+    "test:two": "npx playwright test TC02_ProductPage_StandardUser.spec.js  --project=Chrome",
+    "test:three": "npx playwright test TC03_LoginPage_LockedourUser.spec.js --project=Chrome",
+    "test:record": "npx playwright codegen",
+    "html-report": "npx playwright test --reporter=html && npx playwright show-report",
+    "show-trace": "npx playwright show-trace",
+    "allure:clean": "rm -rf allure-results",
+    "allure-generate": "allure generate ./allure-results --clean -o allure-report",
+    "allure:report": "npm run allure-generate && allure serve"
+  },
+  "keywords": [
+    "Playwright",
+    "Test Runner",
+    "Test Automation",
+    "JavaScript"
+  ],
+  "author": "Srikanth Rayavarapu",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.36.2",
+    "allure-playwright": "^2.4.0",
+    "fs": "^0.0.1-security",
+    "playwright": "^1.44.1",
+    "prettier": "^2.6.2"
+  }
+}

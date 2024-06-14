@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.667424000002444">
+<testsuite name="TC02_ProductPage_StandardUser.spec.js" timestamp="2024-06-13T23:56:34.421Z" hostname="Chrome" tests="1" failures="0" skipped="0" time="5.018" errors="0">
+<testcase name="Login as a standard user to complete the checkout workflow › Test Case: &apos;Login to App as a standard user, add product to cart and proceed to checkout and verify error messages in the checkout page&apos; | Tags: @regression @TC02 @TC2_2" classname="TC02_ProductPage_StandardUser.spec.js" time="5.018">
+</testcase>
+</testsuite>
+</testsuites>
